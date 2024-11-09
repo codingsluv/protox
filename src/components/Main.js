@@ -26,7 +26,7 @@ const Main = () => {
 					<div className='text-[10px] md:text-[18px] text-[#d6d6d6] '>
 						Create the computer applications that allow users to do specific
 						tasks and the underlying systems that run the devices or control
-						networks. I also do Freelance and teach programming in youtube
+						networks.
 					</div>
 				</div>
 				<div className='flex flex-col items-center justify-center md:justify-normal md:flex-row  gap-[30px]  flex-[3]'>

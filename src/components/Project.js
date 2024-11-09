@@ -3,8 +3,7 @@ import React from 'react';
 import calcProject from '../assets/project-unsplash1.jpg';
 import freelancerProject from '../assets/project-unsplash1.jpg';
 import recipeProject from '../assets/project-unsplash1.jpg';
-import youtubeClone from '../assets/project-unsplash1.jpg';
-import SliderImage from '../assets/project-unsplash1.jpg';
+import bookStore from '../assets/project-unsplash1.jpg';
 import RestApi from '../assets/project-unsplash1.jpg';
 
 import ProjectItem from './ProjectItem';
@@ -20,10 +19,10 @@ const Projects = () => {
 
       <div className="grid p-8 md:p-12 md:grid-cols-2 gap-8">
         <ProjectItem
-          title="Lorem 1"
-          backgroundImg={youtubeClone}
+          title="Book Store"
+          backgroundImg={bookStore}
           projectUrl="#"
-          tech="React JS"
+          tech="Golang, VueJs"
         />
         <ProjectItem
           title="Lorem 2"
@@ -46,12 +45,6 @@ const Projects = () => {
         <ProjectItem
           title="Lorem 5"
           backgroundImg={calcProject}
-          projectUrl="#"
-          tech="React JS"
-        />
-        <ProjectItem
-          title="Lorem 6"
-          backgroundImg={SliderImage}
           projectUrl="#"
           tech="React JS"
         />
